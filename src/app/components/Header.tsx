@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
-// import techLogo from "../../../src/app/assets/image/techssetu2.png";
+import techLogo from "../../../../assets/;
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,7 +34,7 @@ export function Header() {
         
         <div className="flex items-center justify-between">
           <div className="flex items-center ">
-            <img src="/src/app/assets/image/techssetu2.png" alt="Techssetu logo" className="w-15 h-15 object-contain" />
+            <img src={techLogo} alt="Techssetu logo" className="w-15 h-15 object-contain" />
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               TECHSSETU
             </div>
